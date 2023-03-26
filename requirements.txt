@@ -1,0 +1,13 @@
+SpeechRecognition==3.8.1
+pyttsx3==2.90
+mttkinter==0.6.1
+customtkinter==4.6.1
+Pillow==9.3.0
+tkVideo==0.1
+time
+pywhatkit==5.4
+wolframalpha==5.0.0
+appopener==1.6
+selenium==4.8.2
+webdriver-manager==3.8.5
+PyAudio==0.2.13
