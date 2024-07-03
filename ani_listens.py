@@ -15,16 +15,9 @@ def get_audio():
         audio = r.listen(source, phrase_time_limit=6)
     print('Stop.')
 
-    try:
-        text = r.recognize_google(audio)
+    text = r.recognize_google(audio)
 
-        print('You: ', text)
-        return text
-    except:
-        count += 1
-        if (count == 2):
-            return 'Specimen'
-        else:
-            assistant_speaks(
-                "I was not able to interpret that, could you please try again?")
-            get_audio()
+    print('You: ', text)
+    count += 1
+    return text
+    
